@@ -12,12 +12,16 @@
     "update-web-types": "vue-docgen-web-types && node fix-web-types.js"
   },
   "dependencies": {
+    "add": "^2.0.6",
+    "axios": "^0.27.2",
+    "mockjs": "^1.1.0",
     "normalize.css": "^8.0.1",
     "vant": "^3.6.3",
     "vue": "^3.2.37",
     "vue-router": "4"
   },
   "devDependencies": {
+    "@types/mockjs": "^1.0.7",
     "@types/node": "^18.7.21",
     "@vitejs/plugin-vue": "^3.1.0",
     "sass": "^1.55.0",
