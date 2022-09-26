@@ -1,0 +1,227 @@
+{
+  "framework": "vue",
+  "name": "css-mogujie-vue3",
+  "version": "0.0.0",
+  "contributions": {
+    "html": {
+      "description-markup": "markdown",
+      "types-syntax": "typescript",
+      "tags": [
+        {
+          "name": "CAvatar",
+          "description": "",
+          "attributes": [
+            {
+              "name": "direction",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "url",
+              "required": true,
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "size",
+              "value": {
+                "kind": "expression",
+                "type": "number|string"
+              },
+              "default": "12"
+            },
+            {
+              "name": "text",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            }
+          ],
+          "source": {
+            "module": "src/components/avatar/Avatar.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "CBoxCenter",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "src/components/box-center/BoxCenter.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "CBoxSkin",
+          "description": "",
+          "attributes": [
+            {
+              "name": "type",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "src/components/box-skin/BoxSkin.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "CFootNav",
+          "description": "",
+          "attributes": [
+            {
+              "name": "list",
+              "value": {
+                "kind": "expression",
+                "type": "object"
+              },
+              "default": "[]"
+            }
+          ],
+          "source": {
+            "module": "src/components/foot-nav/FootNav.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "CMagazine",
+          "description": "",
+          "attributes": [
+            {
+              "name": "image",
+              "required": true,
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "src/components/magazine/Magazine.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "CSingleCenter",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "src/components/single-center/SingleCenter.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "CAside",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "src/components/layout/aside.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "CContent",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "src/components/layout/content.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "CFooter",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "src/components/layout/footer.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "CHeader",
+          "description": "",
+          "attributes": [
+            {
+              "name": "fixed",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              },
+              "default": "false"
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "src/components/layout/header.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "CLayout",
+          "description": "",
+          "attributes": [
+            {
+              "name": "horizontal",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              },
+              "default": "false"
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "src/components/layout/layout.vue",
+            "symbol": "default"
+          }
+        }
+      ]
+    }
+  }
+}
