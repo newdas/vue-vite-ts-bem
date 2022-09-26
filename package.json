@@ -4,9 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "fix-web-types": "node fix-web-types.js",
+    "update-web-types": "vue-docgen-web-types && node fix-web-types.js"
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
