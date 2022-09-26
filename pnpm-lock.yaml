@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/node': ^18.7.21
   '@vitejs/plugin-vue': ^3.1.0
   typescript: ^4.6.4
   vite: ^3.1.0
@@ -11,6 +12,7 @@ dependencies:
   vue: registry.npmmirror.com/vue/3.2.39
 
 devDependencies:
+  '@types/node': registry.npmmirror.com/@types/node/18.7.21
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/3.1.0_vite@3.1.3+vue@3.2.39
   typescript: registry.npmmirror.com/typescript/4.8.3
   vite: registry.npmmirror.com/vite/3.1.3
@@ -70,6 +72,12 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  registry.npmmirror.com/@types/node/18.7.21:
+    resolution: {integrity: sha512-rLFzK5bhM0YPyCoTC8bolBjMk7bwnZ8qeZUBslBfjZQou2ssJdWslx9CZ8DGM+Dx7QXQiiTVZ/6QO6kwtHkZCA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-18.7.21.tgz}
+    name: '@types/node'
+    version: 18.7.21
+    dev: true
 
   registry.npmmirror.com/@vitejs/plugin-vue/3.1.0_vite@3.1.3+vue@3.2.39:
     resolution: {integrity: sha512-fmxtHPjSOEIRg6vHYDaem+97iwCUg/uSIaTzp98lhELt2ISOQuDo2hbkBdXod0g15IhfPMQmAxh4heUks2zvDA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vitejs/plugin-vue/-/plugin-vue-3.1.0.tgz}
